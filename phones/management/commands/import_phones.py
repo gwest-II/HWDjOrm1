@@ -18,4 +18,4 @@ class Command(BaseCommand):
                                  lte_exist=bool(phone.get('lte_exist')), slug=slugify(phone.get('name')))
                 phone_db.save()
 
-        # TODO: Добавьте сохранение модели phone in phones:
+
